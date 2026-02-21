@@ -7,7 +7,7 @@ from pyrogram.types import InlineKeyboardMarkup, InlineKeyboardButton, Message, 
 from pyrogram.errors import FloodWait
 from bot import RazzeshUser
 from config import API_ID, API_HASH
-from database import db
+from Database import db
 
 user_sessions = {}
 active_tasks = {}

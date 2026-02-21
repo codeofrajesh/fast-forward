@@ -1,6 +1,6 @@
 from pyrogram import Client, filters
 from pyrogram.types import Message, InlineKeyboardMarkup, InlineKeyboardButton
-from database.db import add_user, is_user_exist
+from Database.db import add_user, is_user_exist
 
 @Client.on_message(filters.command("start") & filters.private)
 async def send_start(app: Client, message: Message):
